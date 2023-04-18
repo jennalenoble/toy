@@ -1,4 +1,4 @@
-test_that("it adds two numbers", {
+test_that("function adds two numbers", {
   expect_equal(my_add(2,3), 5)
 })
 
