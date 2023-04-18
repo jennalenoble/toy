@@ -12,6 +12,9 @@ see [stringr](https://stringr.tidyverse.org),
 # regexcite
 
 <!-- badges: start -->
+
+<https://github.com/jennalenoble/toy/actions/workflows/test-coverage.yml/badge.svg>
+<https://github.com/jennalenoble/toy/actions/workflows/check-release.yml/badge.svg>
 <!-- badges: end -->
 
 The goal of regexcite is to make regular expressions more exciting! It
