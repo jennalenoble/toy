@@ -2,11 +2,11 @@ test_that("function adds two numbers", {
   expect_equal(my_add(2,3), 5)
 })
 
-test_that("it uses 10 as default value for y", {
+test_that("function uses 10 as default value for y", {
   expect_equal(my_add(5), 15)
 })
 
-test_that("error if x or y is a string", {
+test_that("produces error if x or y is a string", {
   expect_error(my_add("5", "4"))
   expect_error(my_add(5, "4"))
   expect_error(my_add("5", 4))
