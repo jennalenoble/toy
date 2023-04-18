@@ -9,7 +9,7 @@ see [stringr](https://stringr.tidyverse.org),
 [rex](https://cran.r-project.org/package=rex), and
 [rematch2](https://cran.r-project.org/package=rematch2).**
 
-# regexcite
+# toy
 
 <!-- badges: start -->
 
@@ -17,13 +17,18 @@ see [stringr](https://stringr.tidyverse.org),
 ![](https://github.com/jennalenoble/toy/actions/workflows/check-release.yml/badge.svg)
 <!-- badges: end -->
 
-The goal of regexcite is to make regular expressions more exciting! It
+The goal of toy is to make regular expressions more exciting! It
 provides convenience functions to make some common tasks with string
 manipulation and regular expressions a bit easier.
 
+## Functions
+
+- `str_split_one()`
+- `my_add()`
+
 ## Installation
 
-You can install the development version of regexcite from
+You can install the development version of toy from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -52,10 +57,10 @@ Notice how the return value is a **list** of length one, where the first
 element holds the character vector of parts. Often the shape of this
 output is inconvenient, i.e. we want the un-listed version.
 
-That’s exactly what `regexcite::str_split_one()` does.
+That’s exactly what `toy::str_split_one()` does.
 
 ``` r
-library(regexcite)
+library(toy)
 
 str_split_one(x, pattern = ",")
 #> [1] "alfa"    "bravo"   "charlie" "delta"
