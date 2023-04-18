@@ -11,12 +11,11 @@
 #' my_add(1)
 #' my_add(NA)
 #' my_add(10, NA)
-#' my_add("10", "20")
 
 my_add <- function(x,y=10) {
   if (is.character(x) | is.character(y))
     stop("One of your inputs contains a string value")
-  else if (is.NA(x) | is.NA(y)){
+  else if (is.na(x) | is.na(y)){
     return (NA)
   }
   else
